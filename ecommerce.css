@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color:lightgreen;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px rgb(162,162,162);
+}
+nav.logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+ul{
+  margin-right: 45px;
+  margin-top: 7px;  
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+ul li #home{
+    color: rgb(5,167,167);
+}
+ul li #about{
+    color:darkorchid;
+}
+ul li #shop{
+    color:blue;
+}
+ul li #blog{
+    color:chocolate;
+}
+ul li #contact{
+    color:blueviolet;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main.mainText{
+    margin-top: 144px;
+}
+.mainText h1{
+    font-size: 64px;
+}
+.mainText.top{
+    color: rgb(4,138,138);
+}
+.mainTextbutton{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4,140,140);
+    border: none;
+    font-size: none;
+    color: white;
+    margin-top:24px;
+}
+.mainText p{
+    margin-top: 12px;
+}
+head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color: rgb(2,164,164);
+}
+.card{
+   display: flex;
+   justify-content: center;
+}
+.card.crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+    justify-content: center;
+    display: flex;
+    
+}
+.crd img{
+    width: 85%;
+    padding: 22px; 
+}
+.crdText{
+    margin-left: 16px;
+    padding: 8px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    margin-inline: 22px;
+    border-radius: 11px;
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.blog img{
+    padding: 100px;
+    width: 85%;
+}
+.blogText{
+    padding: 12px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 140px;
+    padding: 4px;
+    height: 18px;
+    background-color: rgb(4,136,136);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    top: 33px;
+}
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(2,2,66);
+    padding: 45px;
+}
+.input{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
